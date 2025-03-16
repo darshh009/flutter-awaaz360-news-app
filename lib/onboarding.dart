@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:news_app/home.dart';
+import 'package:news_app/pages/home.dart';
 
 class OnBoarding extends StatefulWidget {
   const OnBoarding({super.key});

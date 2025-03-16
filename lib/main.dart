@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/home.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:news_app/pages/home.dart';
 import 'package:news_app/onboarding.dart';
 
 void main() {
@@ -17,6 +18,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        textTheme: GoogleFonts.poppinsTextTheme(
+          Theme.of(context).textTheme
+
+        )
       ),
       home: OnBoarding(),
     );
