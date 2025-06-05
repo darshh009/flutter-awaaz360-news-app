@@ -1,33 +1,35 @@
+import 'dart:convert';
+
 import 'package:news_app/models/slider_model.dart';
+import 'package:http/http.dart' as http;
 
-List<SliderModel> getSliders(){
+class Sliders{
+  List<SliderModel> sliders=[];
 
-  List<SliderModel> slider=[];
-
-  SliderModel categoryModel=new SliderModel();
-
-  /// first slider
-  categoryModel.image="assets/images/business.jpg";
-  categoryModel.sliderName="Narender Modi launches Swaach Bharat 2025 Plan";
-  slider.add(categoryModel);
-  categoryModel=new SliderModel();
-
-  /// second slider
-  categoryModel.image="assets/images/health.jpg";
-  categoryModel.sliderName="Narender Modi launches Swaach Bharat 2025 Plan";
-  slider.add(categoryModel);
-  categoryModel=new SliderModel();
-
-  /// third slider
-  categoryModel.image="assets/images/general.jpg";
-  categoryModel.sliderName="Narender Modi launches Swaach Bharat 2025 Plan";
-  slider.add(categoryModel);
-  categoryModel=new SliderModel();
-
-  return slider;
+  Future<void> getSliders() async{
+    String url="https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e6d21d424a54dfcbef490fe976c43bc";
+    var response=await http.get(Uri.parse(url));
 
 
+    var jsonData=jsonDecode(response.body);
 
+    if(jsonData['status']=="ok"){
+      jsonData["articles"].forEach((element) {
+        if (element['urlToImage'] != null) {
+          SliderModel sliderModel = SliderModel(
+              title: element['title'],
+              description: element['description'],
+              url: element['url'],
+              urlToImage: element['urlToImage'],
+              content: element['content']
+          );
+          sliders.add(sliderModel);
+        }
+
+        });
+    }
+
+  }
 
 
 
