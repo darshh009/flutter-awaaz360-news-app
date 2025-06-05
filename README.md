@@ -1,16 +1,76 @@
-# news_app
+# Awaaz360 - News App
 
-A new Flutter project.
+A Flutter-based news application designed to provide users with up-to-date news from various categories.
 
-## Getting Started
+## About Awaaz360
 
-This project is a starting point for a Flutter application.
+Awaaz360 is a dynamic news application developed using **Flutter** and **Dart language**. It's powered by **robust backend API integration**, fetching the latest news to keep you informed with real-time updates.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **Categorized News View:** Browse news articles organized into various categories such as Science, Entertainment, Health, Technology, Sports, and more!
+* **Breaking News Section:** Stay on top of the most important and urgent developments with a dedicated section for breaking news alerts.
+* **Trending News Feed:** Discover popular and widely discussed news articles that are currently captivating public interest.
+* **Intuitive User Interface:** Designed for a seamless, engaging, and easy-to-navigate news reading experience.
+* **API Powered Content:** Efficiently fetches fresh news content from reliable backend APIs, ensuring timely information delivery.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech                  | Description                                            |
+| :-------------------- | :----------------------------------------------------- |
+| **Flutter** | Cross-platform UI toolkit for natively compiled applications |
+| **Dart** | Programming language optimized for UI                  |
+| **News API** | For fetching real-time news data                       |
+| **Clean Architecture**| Ensures separation of concerns, scalability, and maintainability |
+| **HTTP/Dio** | For network requests and API communication             |
+| **Flutter Widgets** | For building responsive and intuitive UI elements      |
+
+---
+
+## 📸 Screenshots
+
+_Add images to the `assets/` folder and update the paths below._
+
+### 🏠 Home Screen
+![Home Screen](assets/home_screen.png)
+
+### ➕ Category View (Example)
+![Category View](assets/category_view.png)
+
+---
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/darshh009/awaaz360-news-app.git](https://github.com/darshh009/awaaz360-news-app.git)
+    cd awaaz360-news-app
+    ```
+2.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+3.  **Run the app:**
+    ```bash
+    flutter run
+    ```
+
+---
+
+## 📧 Contact
+
+For any questions or inquiries, feel free to reach out via email: **your.email@example.com**
+
+---
+
+## 📚 Sources
+
+* [News API Documentation](https://newsapi.org/docs)
+* [Flutter Documentation](https://docs.flutter.dev/)
+* [Dart Language Guide](https://dart.dev/guides)
+
+---
