@@ -35,7 +35,7 @@ Awaaz360 is a dynamic news application developed using **Flutter** and **Dart la
 
 <p align="center">
 
-<img src="assets/onboarding.png" alt="Onboarding Page" width="300"/> &nbsp; &nbsp; &nbsp; <img src="assets/home-page.png" alt="Add Event Screen" width="300" /> &nbsp; &nbsp; &nbsp; <img src="assets/category.png" alt="Category Screen" width="300" />
+<img src="assets/onboarding.png" alt="Onboarding Page" width="300"/> &nbsp; &nbsp; &nbsp; <img src="assets/home-page.png" alt="Add Event Screen" width="300" /> &nbsp;  <img src="assets/category.png" alt="Category Screen" width="300" />
 
 <br>
 
