@@ -33,13 +33,15 @@ Awaaz360 is a dynamic news application developed using **Flutter** and **Dart la
 
 ## 📸 Screenshots
 
-_Add images to the `assets/` folder and update the paths below._
+<p align="center">
 
-### 🏠 Home Screen
-![Home Screen](assets/home_screen.png)
+<img src="assets/onboarding.png" alt="Onboarding Page" width="300"/> &nbsp; &nbsp; &nbsp; <img src="assets/home-page.png" alt="Add Event Screen" width="300" /> &nbsp; &nbsp; &nbsp; <img src="assets/category.png" alt="Category Screen" width="300" />
 
-### ➕ Category View (Example)
-![Category View](assets/category_view.png)
+<br>
+
+Onboarding Page &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; Home Page &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; Filter by Category Page
+
+</p>
 
 ---
 
@@ -47,8 +49,8 @@ _Add images to the `assets/` folder and update the paths below._
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/darshh009/awaaz360-news-app.git](https://github.com/darshh009/awaaz360-news-app.git)
-    cd awaaz360-news-app
+    git clone [https://github.com/darshh009/flutter-awaaz360-news-app.git](https://github.com/darshh009/flutter-awaaz360-news-app.git)
+    cd flutter-awaaz360-news-app
     ```
 2.  **Install dependencies:**
     ```bash
@@ -63,7 +65,7 @@ _Add images to the `assets/` folder and update the paths below._
 
 ## 📧 Contact
 
-For any questions or inquiries, feel free to reach out via email: **your.email@example.com**
+For any questions or inquiries, feel free to reach out via email: **darshhwork@gmail.com**
 
 ---
 
